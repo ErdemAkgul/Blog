@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;              
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('images/photo-1485470733090-0aae1788d5af.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position:  center; 
+}
+.conteiner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(77, 69, 69, 0.384);
+    width: 25%;
+    height: 85%;
+    border-radius: 60px;
+
+}
+.conteiner .photo{
+    width: 250px;
+   margin-top: 100px;
+    border-radius: 70px;
+    overflow: hidden;
+}
+.conteiner .name {
+    font-size: 60px;
+    margin-top: 20px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+    
+}
+.conteiner .name:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.conteiner .about_me {
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+    
+    
+}
+.conteiner .about_me:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.conteiner .links {
+    display: inline-block;
+    margin-top: 20px;
+    width: 10px;
+    align-items: center;
+    gap: 20px;
+}
+.conteiner .links img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+    object-fit: contain;
+}
+
+.conteiner .links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    gap: 40px;
+}
+.conteiner .photo:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.conteiner .links img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
